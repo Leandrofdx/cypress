@@ -1,0 +1,80 @@
+{
+  "cartHeader": {
+    "totalItems": "4",
+    "totalValue": "$140.62",
+    "updatedTotalItems": "3",
+    "updatedTotalValue": "$99.82"
+  },
+  "shippingOptions": {
+    "shipping": {
+      "label": "Shipping",
+      "zipCode": "10017",
+      "fullAddress": "New York, NY 10017, USA"
+    },
+    "pickup": {
+      "label": "Pickup",
+      "zipCode": "10017",
+      "fullAddress": "New York, NY 10017, USA",
+      "details": {
+        "country": "USA",
+        "distance": "(0.5 mi)",
+        "fee": "$1.00",
+        "unavailableItems": "1 item unavailable",
+        "product": {
+          "name": "Standard Item",
+          "quantity": "Quantity2"
+        },
+        "pickupDate": "Earliest pickup on Fri, May 16",
+        "storeAddress": "11 11 E 44th St 11 floor, Manhattan, NY, USA"
+      }
+    }
+  },
+  "items": {
+    "standardItem": {
+      "name": "Standard Item",
+      "unavailableMessage": "Unavailable for pickup",
+      "description": "Test :)"
+    },
+    "productWLAll": {
+      "name": "Product WL All",
+      "unavailableMessage": "Unavailable for pickup",
+      "description": "Test :)"
+    },
+    "standardItemCopy": {
+      "name": "Cópia de Standard Item Standard Item",
+      "unavailableMessage": "Unavailable for pickup",
+      "description": "Test :)"
+    },
+    "kitLook": {
+      "name": "KIT Look KIT Item 1 (Itens vendidos separados)",
+      "unavailableMessage": "Unavailable for pickup",
+      "description": "Test :)"
+    },
+    "purchaseExperience": {
+      "name": "Purchase Experience",
+      "price": "$13.41",
+      "description": "Test :)",
+      "quantitySelector": "select[name=\"Change Quantity\"]",
+      "newQuantity": "2"
+    }
+  },
+  "pickupStore": {
+    "name": "Pickup store",
+    "country": "USA",
+    "address": "11 11 E 44th St 11 floor, Manhattan, NY, USA",
+    "pickupFee": "$2.00"
+  },
+  "orderSummary": {
+    "subtotal": "$140.62",
+    "delivery": "To be calculated",
+    "discounts": "$0.00",
+    "total": "$140.62"
+  },
+  "freeShipping": {
+    "message": "You're $10.00 away from free shipping. Add more items to your cart.",
+    "link": "https://vtex.com"
+  },
+  "unavailableItems": {
+    "message": "4 items in the cart are unavailable"
+  }
+} 

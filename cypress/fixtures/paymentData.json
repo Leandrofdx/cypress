@@ -1,0 +1,18 @@
+{
+  "creditCard": {
+    "number": "5476297098860790",
+    "holderName": "User Test",
+    "expirationDate": "02/26",
+    "securityCode": "162"
+  },
+  "customer": {
+    "name": "John",
+    "fullName": "John Doe",
+    "email": "test@example.com",
+    "phone": "2016656654"
+  },
+  "address": {
+    "street": "10017 Colvin Run Road",
+    "receiverName": "John Doe"
+  }
+} 

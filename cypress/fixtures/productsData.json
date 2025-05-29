@@ -1,0 +1,11 @@
+{
+    "name": "sephora",
+    "address": "88 2nd St",
+    "newAdress": "77 1st St",
+    "paymentInfo": {
+        "cardNumber": "5550 8521 4661 0941",
+        "cardName": "Nome do cartão",
+        "cardExpiry": "10/10",
+        "cardCVC": "044"
+    }
+}
