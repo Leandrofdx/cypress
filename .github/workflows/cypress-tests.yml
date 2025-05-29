@@ -21,10 +21,9 @@ jobs:
         run: npm run generate-all-reports
         env:
           CYPRESS_RETRIES: 2
-          DEBUG: cypress:*
           CI: true
-          CYPRESS_VERBOSE: true
-          CYPRESS_LOG_TO_CONSOLE: true
+          CYPRESS_VIDEO: true
+          CYPRESS_VIDEO_COMPRESSION: 32
 
       - name: Upload test results
         uses: actions/upload-artifact@v4
