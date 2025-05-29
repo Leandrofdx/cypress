@@ -18,14 +18,13 @@ jobs:
         run: npm ci
 
       - name: Cypress run
-        run: npx cypress run --browser chrome --config video=true,screenshotOnRunFailure=true,viewportWidth=1280,viewportHeight=720 --reporter mochawesome
+        run: npm run generate-all-reports
         env:
           CYPRESS_RETRIES: 2
           DEBUG: cypress:*
           CI: true
-
-      - name: Generate HTML report
-        run: npx mochawesome-merge cypress/results/*.json > cypress/results/report.json && npx mochawesome-report-generator cypress/results/report.json --reportDir cypress/results/html
+          CYPRESS_VERBOSE: true
+          CYPRESS_LOG_TO_CONSOLE: true
 
       - name: Upload test results
         uses: actions/upload-artifact@v4
@@ -33,7 +32,7 @@ jobs:
         with:
           name: cypress-results
           path: |
-            cypress/results/
+            results/
             cypress/videos/
             cypress/screenshots/
             mochawesome-report/
